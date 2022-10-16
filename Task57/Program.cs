@@ -46,6 +46,7 @@ void SearchNum(int[,] array)
                 count++;
             }
         }
+        if(count != 0)
         Console.WriteLine($"{number} встречается {count} раз");
     }
 }
